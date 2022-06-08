@@ -1,0 +1,214 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 100vw;
+        background-color: #1f1d1d;
+    }
+    
+    .nav-a {
+        font-family: revert;
+        color: #e7e7e7;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 12px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .nav-a:hover {
+        text-decoration: none;
+        text-shadow: blanchedalmond;
+        cursor: pointer;
+    }
+    /* .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 12px;
+        cursor: pointer;
+        padding: 14px;
+    }
+    
+    .nav-link {
+        color: white;
+    } */
+    
+    input.form-control.me-2 {
+        font-size: 13px;
+    }
+    
+    .btn-outlinesuccess {
+        color: black;
+        font-size: 13px;
+        border-color: black;
+    }
+    
+    .d-flex {
+        display: flex!important;
+        position: absolute;
+        right: 34px;
+        top: 11px;
+        font-size: 22px;
+    }
+    
+    .back {
+        background-color: #3d3d3c9e;
+        height: 58px;
+        color: #e7e7e7;
+    }
+    
+    #slider {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .navbar-collapse {
+        position: absolute;
+        left: 185px;
+    }
+    /* .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, 
+.navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    padding-left: 19px;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+} */
+    
+    .navbarbrand {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 3.5rem;
+        font-size: 2.5rem;
+        text-decoration: none;
+        margin-left: 37px;
+        color: #cdb3f9;
+        text-decoration: none;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    
+    .navbarbrand:hover {
+        color: black;
+    }
+    
+    .linetext {
+        margin-top: 0;
+        position: absolute;
+        margin-bottom: 1rem;
+        /* text-align: center; */
+        margin-left: -115px;
+        left: 39%;
+        top: 25%;
+        color: white;
+        margin-left: -115;
+    }
+    
+    .fa-list-alt:before {
+        content: "\f022";
+        color: #d6bffd;
+        font-size: 19px;
+        margin-right: 2px;
+    }
+    
+    .fa-history:before {
+        content: "\f1da";
+        color: #d6bffd;
+        font-size: 19px;
+        margin-right: 2px;
+    }
+    
+    .fa-photo-video:before {
+        content: "\f87c";
+        color: #d6bffd;
+        font-size: 19px;
+        margin-right: 6px;
+    }
+    
+    .fa-file-audio:before {
+        content: "\f1c7";
+        color: #d6bffd;
+        font-size: 19px;
+        margin-right: 2px;
+    }
+    
+    .fa-home:before {
+        content: "\f015";
+        color: #d6bffd;
+        font-size: 19px;
+        margin-right: 2px;
+    }
+    
+    .fa-film:before {
+        content: "\f008";
+        color: #d6bffd;
+        font-size: 19px;
+        margin-right: 2px;
+    }
+    
+    .fa-search:before {
+        content: "\f002";
+        color: #d6bffd;
+        font-size: 18px;
+        position: absolute;
+        right: 90px;
+        top: 8px;
+        background: none;
+    }
+    
+    button.btn {
+        position: absolute;
+        background-color: #cdb3f9;
+        margin-right: 12px;
+        right: 218px;
+        font-size: 13px;
+    }
+    
+    .featured {
+        margin-left: 34px;
+        font-weight: 700;
+    }
+    
+    .footer {
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        height: 120px;
+        font-size: 14px;
+        border-top: 1px solid #504747;
+        margin-top: 20px;
+        color: #d2c8c8;
+        background-color: #1f1d1d;
+    }
+    
+    .footer div i {
+        font-size: 24px;
+        padding: 24px;
+    }
+    
+    .play {
+        color: white;
+        border-color: #a9b8cd;
+        width: 113px;
+        padding-bottom: 6px;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 3px 18px;
+        border-radius: 6px;
+        margin-left: 5px;
+        border: 1px solid white;
+    }
+    
+    .play:hover {
+        box-shadow: 6px 8px 0 rgba(21, 2, 2, 0.1);
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        background-color: rgb(207, 194, 194);
+    }

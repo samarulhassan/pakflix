@@ -1,0 +1,86 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.featured {
+    margin-left: 34px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: white;
+}
+
+.page-content {
+    background: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar::after {
+    display: none;
+}
+
+.card-title {
+    font-size: 15px;
+    margin-left: 21px;
+    text-align: left;
+}
+
+.fa-play-circle:before {
+    content: "\f144";
+    color: #674a98;
+    font-size: 28px;
+}
+
+.list-block li {
+    box-sizing: border-box;
+    position: relative;
+    height: 261 px;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    margin: 19px;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    background-color: #312b2b;
+    font-size: 14px;
+}
+
+.card-content-inner {
+    padding: 15px;
+    text-align: center;
+    margin-left: 8px;
+    width: 50%;
+}
+
+ul li img {
+    margin-left: 22px;
+    width: 279px;
+    height: 161px;
+}
+
+.featured-novels::before {
+    content: '';
+    left: 532px;
+    top: 107px;
+    position: absolute;
+    height: 3px;
+    right: 40%;
+    background-color: #7537ad;
+}
+
+.card-footer {
+    border-radius: 0 0 2px 2px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    border-top: 1px solid #504747;
+}

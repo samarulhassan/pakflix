@@ -1,0 +1,81 @@
+.wrapper {
+    height: 331px;
+    width: 80%;
+    margin: 81px auto 21px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.service {
+    padding: 10% 0;
+}
+
+.service h2 {
+    color: black;
+    position: relative;
+    top: -51%;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    margin: -65px 24px;
+    font-family: yatra one;
+    font-size: 30px;
+}
+
+.service p {
+    width: 85%;
+    margin: auto;
+    font-family: nunito;
+    font-size: 15px;
+}
+
+.heading {
+    /* text-align: end; */
+    margin-right: 8px;
+    margin-top: 23px;
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-align: start;
+    color: white;
+}
+
+.service a {
+    text-decoration: none;
+    background: deepskyblue;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Yatra One';
+    letter-spacing: 2px;
+}
+
+.single-box {
+    width: 400px;
+    height: 270px;
+    margin: 40px 14px;
+    transition: 0.5s;
+    background: linear-gradient(rgb(163 163 163 / 38%), rgba(0, 0, 0, 0.65)), url(/images/download.jfif);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* text-align: center; */
+}
+
+.single-box:hover {
+    transform: scale(1.15);
+    z-index: 2;
+}
+
+.under-p {
+    color: #d0cccc;
+    width: 213px;
+    margin-top: 126px;
+    margin-left: -200px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+    margin-right: 30px;
+}

@@ -1,0 +1,101 @@
+#contact {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-bottom: 5px;
+    margin-left: 53px;
+    margin-bottom: 20px;
+    margin-right: 44px;
+}
+
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 91%;
+}
+
+.heading {
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+.col-md-6 {
+    margin-left: 45px;
+    flex: 0 0 auto;
+    width: 45%;
+}
+
+.img-fluid {
+    max-width: 72%;
+    height: auto;
+}
+
+.row {
+    padding: 5px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    background-color: #2c2c2c;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11px;
+}
+
+.form-control {
+    border: none;
+    background: #f3f3f3;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
+    margin-left: 54px;
+}
+
+.list {
+    list-style-type: none;
+    color: rgb(245, 244, 244);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    border: 1px solid black;
+    padding-bottom: 6px;
+    border-radius: 87px;
+    font-size: 22px;
+    color: #4b21ee;
+}
+
+.fa-envelope-open:before {
+    content: "\f2b6";
+    padding-left: 9px;
+    padding-top: 9px;
+    padding-right: 9px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    border-radius: 87px;
+    font-size: 19px;
+    color: #4b21ee;
+}
+
+.fa-phone-square-alt:before {
+    content: "\f87b";
+    color: #4b21ee;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-right: 10px;
+    border: 1px solid black;
+    padding-bottom: 7px;
+    border-radius: 87px;
+}
+
+.touch {
+    color: #f9f9f9;
+    font-size: 1.15rem;
+    margin-left: 5px;
+    margin-top: -20px;
+    margin-bottom: 22px;
+}
